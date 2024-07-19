@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <style>
+        .container{
+            
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            background-color: white;
+            width: 25%;
+            height: 50vh;
+            border: 3px solid black;
+        }
+        label{
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-left: 10%;
+            text-transform: capitalize;
+        
+        }
+        input{
+            height: 3vh;
+            width: 80%;
+    
+            margin: 3px 0px 7px 10%;
+        }
+        button{
+            margin: 10px 0px 5px 10%;
+            height: 3.7vh;
+            width: 80%;
+            border-radius: 50px;
+        }
+        h1{
+            font-size: 2rem;
+            text-align: center;
+        }
+        p{
+            font-size: 1.5rem;
+            text-align: center;
+            text-transform: capitalize;
+        }
+        button:hover{
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>welocome back</h1>
+            <p>hello thiss is avinash verma</p>
+            <form action="">
+                <label for="">email</label>
+                <br>
+                <input type="email">
+                <br>
+                <label for="">password</label>
+                <br>
+                <input type="password">
+                <br>
+                <button type="submit">login</button>
+                <br>
+                <button type="reset">reset</button>
+                <br>
+                <p>                can't find account? <b>sign up here</b>                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
