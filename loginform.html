@@ -1,58 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login form</title>
     <style>
-        .container{
-            
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+
             height: 100vh;
+            background-image: url(bg3.jpg);
             display: flex;
             flex-direction: row;
             justify-content: center;
             align-items: center;
         }
-        .card{
+
+        .card {
             background-color: white;
             width: 25%;
             height: 50vh;
             border: 3px solid black;
+            background-image: url(bg3.jpg);
         }
-        label{
+
+        label {
             font-size: 1.3rem;
             font-weight: 700;
             margin-left: 10%;
             text-transform: capitalize;
-        
+
         }
-        input{
-            height: 3vh;
+
+        input {
+            height: 4vh;
             width: 80%;
-    
+            border-radius: 30px;
             margin: 3px 0px 7px 10%;
         }
-        button{
+
+        button {
             margin: 10px 0px 5px 10%;
             height: 3.7vh;
             width: 80%;
             border-radius: 50px;
         }
-        h1{
+
+        h1 {
             font-size: 2rem;
             text-align: center;
         }
-        p{
+
+        p {
             font-size: 1.5rem;
             text-align: center;
             text-transform: capitalize;
         }
-        button:hover{
+
+        button:hover {
             color: white;
             background-color: black;
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="card">
@@ -71,9 +86,10 @@
                 <br>
                 <button type="reset">reset</button>
                 <br>
-                <p>                can't find account? <b>sign up here</b>                </p>
+                <p> can't find account? <b>sign up here</b> </p>
             </form>
         </div>
     </div>
 </body>
+
 </html>
